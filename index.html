@@ -221,6 +221,9 @@
             transition: var(--transition);
             text-align: center;
             padding: 30px 20px;
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .category-card:hover {
@@ -280,6 +283,9 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: var(--transition);
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .tool-card:hover {
@@ -610,7 +616,7 @@
         </div>
     </section>
 
-    <!-- Categories Section -->
+    <!-- Image Tools Section -->
     <section class="categories" id="image-tools">
         <div class="container">
             <div class="section-title">
@@ -619,63 +625,59 @@
             </div>
             
             <div class="category-grid">
-                <div class="category-card">
+                <a href="tools/image-compressor.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-compress-alt"></i>
-                        
-            <div class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-compress-alt"></i>
-            </div>
-                <h3>Image Compressor</h3>
-                <p>Reduce image file size without losing quality</p>
-                <a href="tools/image-compressor.html" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-            </div>
-
-                <div class="category-card">
+                    </div>
+                    <h3>Image Compressor</h3>
+                    <p>Reduce image file size without losing quality</p>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
+                
+                <a href="image-converter.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-exchange-alt"></i>
                     </div>
                     <h3>Image Converter</h3>
                     <p>Convert between JPG, PNG, WEBP and more</p>
-                    <a href="#" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
                 
-                <div class="category-card">
+                <a href="image-resizer.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-crop-alt"></i>
                     </div>
                     <h3>Image Resizer</h3>
                     <p>Resize images to any dimension</p>
-                    <a href="#" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
                 
-                <div class="category-card">
+                <a href="image-editor.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-magic"></i>
                     </div>
                     <h3>Image Editor</h3>
                     <p>Crop, rotate, flip and apply filters</p>
-                    <a href="#" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
                 
-                <div class="category-card">
+                <a href="background-remover.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-file-image"></i>
                     </div>
                     <h3>Background Remover</h3>
                     <p>Remove background from images automatically</p>
-                    <a href="#" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
                 
-                <div class="category-card">
+                <a href="collage-maker.html" class="category-card">
                     <div class="category-icon">
                         <i class="fas fa-images"></i>
                     </div>
                     <h3>Collage Maker</h3>
                     <p>Create beautiful photo collages</p>
-                    <a href="#" class="category-link">Try Now <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="category-link">Try Now <i class="fas fa-arrow-right"></i></div>
+                </a>
             </div>
         </div>
     </section>
@@ -689,7 +691,7 @@
             </div>
             
             <div class="tools-grid">
-                <div class="tool-card">
+                <a href="pdf-compressor.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-file-pdf"></i>
@@ -701,11 +703,11 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Compress PDF files to make them smaller while maintaining quality.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="tool-card">
+                <a href="pdf-to-word.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-file-word"></i>
@@ -717,11 +719,11 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Convert PDF documents to Microsoft Word format for easy editing.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="tool-card">
+                <a href="pdf-to-excel.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-file-excel"></i>
@@ -733,11 +735,11 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Convert PDF tables to Excel spreadsheets while preserving formatting.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="tool-card">
+                <a href="pdf-to-ppt.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-file-powerpoint"></i>
@@ -749,11 +751,11 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Transform PDF files into editable PowerPoint presentations.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="tool-card">
+                <a href="pdf-to-jpg.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-file-image"></i>
@@ -765,11 +767,11 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Convert PDF documents to high-quality JPG images.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="tool-card">
+                <a href="pdf-protector.html" class="tool-card">
                     <div class="tool-header">
                         <div class="tool-icon">
                             <i class="fas fa-lock"></i>
@@ -781,9 +783,9 @@
                     </div>
                     <div class="tool-body">
                         <p class="tool-description">Add passwords and permissions to your PDF documents.</p>
-                        <a href="#" class="tool-btn">Use Tool</a>
+                        <div class="tool-btn">Use Tool</div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -865,7 +867,7 @@
         <div class="container">
             <h2>Ready to Get Started?</h2>
             <p>Join thousands of users who trust our tools for their daily file conversion and optimization needs.</p>
-            <a href="#" class="cta-btn">Explore All Tools</a>
+            <a href="#image-tools" class="cta-btn">Explore All Tools</a>
         </div>
     </section>
 
@@ -887,33 +889,33 @@
                 <div class="footer-col">
                     <h3>Image Tools</h3>
                     <ul>
-                        <li><a href="#">Image Compressor</a></li>
-                        <li><a href="#">Image Converter</a></li>
-                        <li><a href="#">Image Resizer</a></li>
-                        <li><a href="#">Background Remover</a></li>
-                        <li><a href="#">Collage Maker</a></li>
+                        <li><a href="image-compressor.html">Image Compressor</a></li>
+                        <li><a href="image-converter.html">Image Converter</a></li>
+                        <li><a href="image-resizer.html">Image Resizer</a></li>
+                        <li><a href="background-remover.html">Background Remover</a></li>
+                        <li><a href="collage-maker.html">Collage Maker</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h3>PDF Tools</h3>
                     <ul>
-                        <li><a href="#">PDF Compressor</a></li>
-                        <li><a href="#">PDF to Word</a></li>
-                        <li><a href="#">PDF to Excel</a></li>
-                        <li><a href="#">PDF to JPG</a></li>
-                        <li><a href="#">PDF Protector</a></li>
+                        <li><a href="pdf-compressor.html">PDF Compressor</a></li>
+                        <li><a href="pdf-to-word.html">PDF to Word</a></li>
+                        <li><a href="pdf-to-excel.html">PDF to Excel</a></li>
+                        <li><a href="pdf-to-jpg.html">PDF to JPG</a></li>
+                        <li><a href="pdf-protector.html">PDF Protector</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h3>Company</h3>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
             </div>
